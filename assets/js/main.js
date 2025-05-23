@@ -221,10 +221,10 @@ if (!Array.isArray(window.eventData)) {
       tag: "academic",
       coverImage: "assets/img/education/events-9.webp",
       host: {
-        name: "Dr. Aisha Suleiman",
+        name: "Mr. Jephthah Peter",
         photo: "assets/img/person/Jephthah.jpeg",
         title: "Head of Community Outreach",
-        email: "aisha.suleiman@example.org",
+        email: "jephthahpeter@gmail.com",
         phone: "+234 803 123 4567"
       },
       highlights: [
@@ -270,7 +270,7 @@ if (!Array.isArray(window.eventData)) {
         name: "Mr. Chinedu Okonkwo",
         photo: "assets/img/person/Jephthah.jpeg",
         title: "Program Director, Relief Operations",
-        email: "chinedu.okonkwo@example.org",
+        email: "chineduokonkwo@gmail.com",
         phone: "+234 802 987 6543"
       },
       highlights: [
