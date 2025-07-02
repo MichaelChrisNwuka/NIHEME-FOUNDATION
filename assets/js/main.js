@@ -212,14 +212,14 @@ if (!Array.isArray(window.eventData)) {
      {
       id: 1,
       location: "Abuja, Nigeria",
-      title: "Outreach Mission in Abuja",
-      description: "Join us in Abuja for a heartfelt outreach event focused on providing essential aid to underserved communities. From care packages to direct support, our mission is to make a lasting impact through compassion and unity. Be a part of the movement — lend a hand, share a smile, and help us light up lives.",
-      detailedDescription: "The Outreach Mission in Abuja was a large-scale community impact program aimed at offering practical aid and emotional support to those in dire need. We provided over 500 care packages containing food, hygiene supplies, and educational materials. Activities included live testimonials, volunteer awards, and a collaborative roundtable with local leaders.",
-      time: "09:00 AM - 03:00 PM",
-      venue: "Main Auditorium, Abuja, Nigeria",
-      date: { day: "15", month: "FEB", year: "2025" },
+      title: "Outreach Mission in Imo State",
+      description: "The Niheme Foundation recently embarked on a transformative outreach mission in Imo State, Nigeria, dedicated to uplifting and supporting a local community in need. With a focus on compassion and real impact, the foundation distributed essential aid, care packages, and financial support directly to families, bringing hope and relief to many. ",
+      detailedDescription: "The Niheme Foundation recently embarked on a transformative outreach mission in Imo State, Nigeria, dedicated to uplifting and supporting a local community in need. With a focus on compassion and real impact, the foundation distributed essential aid, care packages, and financial support directly to families, bringing hope and relief to many.",
+      time: "09:00 AM - 12:00 PM",
+      venue: "Imo State, Nigeria",
+      date: { day: "06", month: "JUNE", year: "2025" },
       tag: "academic",
-      coverImage: "assets/img/education/events-9.webp",
+      coverImage: "assets/img/education/OutreachInImoMain.jpg",
       host: {
         name: "Mr. Jephthah Peter",
         photo: "assets/img/person/Jephthah.jpeg",
@@ -229,8 +229,8 @@ if (!Array.isArray(window.eventData)) {
       },
       highlights: [
         "Distributed over 500 care kits",
-        "Partnered with 12 local NGOs",
-        "Secured 20 new volunteers"
+        "Financial assistance provided to numerous families",
+        "Secured 20 new passionate volunteers"
       ],
       schedule: [
         {
@@ -241,18 +241,18 @@ if (!Array.isArray(window.eventData)) {
         {
           time: "10:00 AM - 12:00 PM",
           title: "Aid Distribution",
-          description: "Volunteers handed out packages to families in need."
+          description: "Volunteers shared packages and monetary assistance with families in the community."
         },
         {
           time: "01:00 PM - 02:00 PM",
           title: "Panel Discussion",
-          description: "Local leaders discussed sustainable outreach strategies."
+          description: "Community leaders and partners discussed sustainable approaches to outreach and long-term community development."
         }
       ],
       gallery: [
-        "assets/img/person/Jephthah.jpeg",
-        "assets/img/person/Jephthah.jpeg",
-        "assets/img/person/Jephthah.jpeg"
+        "assets/img/education/OutreachInImoMain.jpg",
+        "assets/img/education/OutreachInImoMain.jpg",
+        "assets/img/education/OutreachInImoMain.jpg"
       ]
     },
     {
