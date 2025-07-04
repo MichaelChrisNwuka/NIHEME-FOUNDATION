@@ -212,7 +212,7 @@ if (!Array.isArray(window.eventData)) {
      {
       id: 1,
       location: "Abuja, Nigeria",
-      title: "Outreach Mission in Imo State",
+      title: "Outreach Mission In Imo State",
       description: "The Niheme Foundation recently embarked on a transformative outreach mission in Imo State, Nigeria, dedicated to uplifting and supporting a local community in need. With a focus on compassion and real impact, the foundation distributed essential aid, care packages, and financial support directly to families, bringing hope and relief to many. ",
       detailedDescription: "The Niheme Foundation recently embarked on a transformative outreach mission in Imo State, Nigeria, dedicated to uplifting and supporting a local community in need. With a focus on compassion and real impact, the foundation distributed essential aid, care packages, and financial support directly to families, bringing hope and relief to many.",
       time: "09:00 AM - 12:00 PM",
@@ -234,23 +234,14 @@ if (!Array.isArray(window.eventData)) {
       ],
       schedule: [
         {
-          time: "09:00 AM - 09:30 AM",
-          title: "Opening Ceremony",
-          description: "Welcome address by Principal and introduction to the event."
-        },
-        {
-          time: "10:00 AM - 12:00 PM",
+          time: "9AM - 12PM",
           title: "Aid Distribution",
           description: "Volunteers shared packages and monetary assistance with families in the community."
         },
-        {
-          time: "01:00 PM - 02:00 PM",
-          title: "Panel Discussion",
-          description: "Community leaders and partners discussed sustainable approaches to outreach and long-term community development."
-        }
       ],
       gallery: [
         "assets/img/education/OutreachInImoMain.jpg",
+        "https://www.youtube.com/watch?v=G1VPZ1UpX88",
         "assets/img/education/OutreachInImoMain.jpg",
         "assets/img/education/OutreachInImoMain.jpg"
       ]
@@ -303,6 +294,8 @@ if (!Array.isArray(window.eventData)) {
     }
   ];
 }
+
+
 
 // Wait for the DOM to be fully loaded
 window.addEventListener('DOMContentLoaded', () => {

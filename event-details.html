@@ -93,7 +93,7 @@
           <div class="footer-contact pt-3">
             <p>Flat 1, Iheme Dynasty, Ndiuhu, Ibele Autonomous Community,</p>
             <p> Njaba LGA, Imo State.</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>972-698-7481    |    08024109137</span></p>
+            <p class="mt-3"><strong>Phone:</strong> <span>972-698-7481 | 08024109137</span></p>
             <p><strong>Email:</strong> <span>nnamdiihemefoundation@gmail.com</span></p>
           </div>
           <div class="social-links d-flex mt-4">
@@ -154,12 +154,12 @@
         document.getElementById('event').innerHTML = '<p>Event Not Found.</p>';
         return;
       }
-  
+
       // Build Highlights HTML
       const highlightsHTML = eventData.highlights.map(item =>
         `<li><i class="bi bi-check-circle"></i><span>${item}</span></li>`
       ).join('');
-  
+
       // Build Schedule HTML
       const scheduleHTML = eventData.schedule.map(sch =>
         `<div class="schedule-row">
@@ -170,16 +170,60 @@
           </div>
         </div>`
       ).join('');
-  
+
+      // Use This Snippet If & Only If You Want Just Photos In The Gallery Section Of The Event Details Page
       // Build Gallery HTML
-      const galleryHTML = eventData.gallery.map(img =>
-        `<div class="col-md-4">
-          <a href="${img}" class="glightbox">
-            <img src="${img}" alt="Event Gallery" class="img-fluid rounded">
-          </a>
-        </div>`
-      ).join('');
-  
+      // const galleryHTML = eventData.gallery.map(img =>
+      //   `<div class="col-md-4">
+      //     <a href="${img}" class="glightbox">
+      //       <img src="${img}" alt="Event Gallery" class="img-fluid rounded">
+      //     </a>
+      //   </div>`
+      // ).join('');
+
+      // Influence The Videos In The Gallery Section Of The Events Page & Build Gallery HTML
+      const galleryHTML = eventData.gallery.map(item => {
+        // Check if item is a YouTube link
+        if (item.includes("youtube.com") || item.includes("youtu.be")) {
+          let videoId = "";
+          if (item.includes("watch?v=")) {
+            videoId = item.split("v=")[1].split("&")[0];
+          } else if (item.includes("youtu.be/")) {
+            videoId = item.split("youtu.be/")[1].split("?")[0];
+          }
+          // YouTube thumbnail
+          const thumbnail = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
+
+          return `
+      <div class="col-md-4" style="position: relative;">
+        <a href="${item}" target="_blank" style="display: block; position: relative;">
+          <img src="${thumbnail}" alt="Video Preview" class="img-fluid rounded" style="display: block;">
+          <div style="
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 48px;
+            color: white;
+            opacity: 0.8;
+            pointer-events: none;
+          ">&#9658;</div>
+        </a>
+      </div>
+    `;
+        } else {
+          // Image preview
+          return `
+      <div class="col-md-4">
+        <a href="${item}" class="glightbox">
+          <img src="${item}" alt="Event Gallery" class="img-fluid rounded">
+        </a>
+      </div>
+    `;
+        }
+      }).join('');
+
+
       // Main Event HTML
       document.getElementById('event').innerHTML = `
         <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -225,7 +269,7 @@
                 <div class="event-gallery mt-5" data-aos="fade-up" data-aos-delay="300">
                   <h3>Event Gallery</h3>
                   <p> Images From The ${eventData.title} </p>
-                  <div class="row g-4 mt-2">${galleryHTML}</div>
+                  <div class="row g-4 mt-2" id="event-gallery">${galleryHTML}</div>
                 </div>
               </div>
             </div>
@@ -255,35 +299,35 @@
         </div>
       `;
     }
-  
+
     document.addEventListener('DOMContentLoaded', function () {
       const params = new URLSearchParams(window.location.search);
       const idParam = params.get('id');
-  
+
       if (!idParam) {
         document.getElementById('event').innerHTML = `
           <div class="container"><h2>Event Not Found</h2><p>No Event ID provided.</p></div>`;
         return;
       }
-  
+
       const eventsId = Number(idParam);
       if (isNaN(eventsId)) {
         document.getElementById('event').innerHTML = `
           <div class="container"><h2>Event Not Found</h2><p>Invalid event ID provided.</p></div>`;
         return;
       }
-  
+
       const event = window.eventData.find(e => e.id === eventsId);
       if (!event) {
         document.getElementById('event').innerHTML = `
           <div class="container"><h2>Event Not Found</h2><p>No event matched the provided ID.</p></div>`;
         return;
       }
-  
+
       renderEventDetails(event);
     });
   </script>
-  
+
 
 
 </body>

@@ -6273,7 +6273,20 @@ section,
   font-size: 0.95rem;
 }
 
+/* .event .event-content .event-gallery  #event-gallery{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+} */
+
 .event .event-content .event-gallery img {
+  transition: all 0.3s ease;
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.event .event-content .event-gallery video {
   transition: all 0.3s ease;
   height: 200px;
   object-fit: cover;
