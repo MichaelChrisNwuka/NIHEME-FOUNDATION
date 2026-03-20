@@ -228,9 +228,9 @@ if (!Array.isArray(window.eventData)) {
         phone: "+234 803 123 4567"
       },
       highlights: [
-        "Distributed over 500 care kits",
+        "Distributed over 20 care kits",
         "Financial assistance provided to numerous families",
-        "Secured 20 new passionate volunteers"
+        "Secured 5 new passionate volunteers"
       ],
       schedule: [
         {
