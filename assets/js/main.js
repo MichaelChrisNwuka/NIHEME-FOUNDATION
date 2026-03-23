@@ -241,7 +241,7 @@ if (!Array.isArray(window.eventData)) {
       ],
       gallery: [
         "assets/img/education/OutreachInImoMain2.jpg",
-        "https://www.youtube.com/watch?v=G1VPZ1UpX88",
+        "https://youtu.be/lBwVS9LmMJ8?si=0iUhxMPc1nYmF4ov",
         "assets/img/education/OutreachInImoMain3.jpg",
         "assets/img/education/OutreachInImoMain4.jpg"
       ]
