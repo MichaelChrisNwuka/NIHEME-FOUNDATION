@@ -246,52 +246,44 @@ if (!Array.isArray(window.eventData)) {
         "assets/img/education/OutreachInImoMain4.jpg"
       ]
     },
-    // {
-    //   id: 2,
-    //   location: "Delta State",
-    //   title: "Delta State Relief Drive",
-    //   description: "We’re heading to Delta State to extend hands of support and hope. This outreach will focus on food distribution, clothing, and community engagement for families in need. Together, we make kindness louder.",
-    //   detailedDescription: "The Delta State Relief Drive saw our team organize a comprehensive humanitarian effort centered around urgent community needs. Food packs, water, clothes, and medical check-ups were distributed. Our team facilitated emotional support circles and ran games for children to lighten the mood and spread cheer.",
-    //   time: "10:00 AM - 04:00 PM",
-    //   venue: "Ogwashi-Uku Civic Center, Delta State",
-    //   date: { day: "10", month: "MAR", year: "2025" },
-    //   tag: "sports",
-    //   coverImage: "assets/img/education/events-9.webp",
-    //   host: {
-    //     name: "Mr. Chinedu Okonkwo",
-    //     photo: "assets/img/person/Jephthah.jpeg",
-    //     title: "Program Director, Relief Operations",
-    //     email: "chineduokonkwo@gmail.com",
-    //     phone: "+234 802 987 6543"
-    //   },
-    //   highlights: [
-    //     "Reached over 300 families",
-    //     "Set up mobile medical camp",
-    //     "Engaged 50+ local volunteers"
-    //   ],
-    //   schedule: [
-    //     {
-    //       time: "10:00 AM - 10:30 AM",
-    //       title: "Registration & Introduction",
-    //       description: "Overview of the day’s activities and safety briefing."
-    //     },
-    //     {
-    //       time: "11:00 AM - 01:00 PM",
-    //       title: "Food & Supplies Distribution",
-    //       description: "Distribution of essential relief items to community members."
-    //     },
-    //     {
-    //       time: "02:30 PM - 03:30 PM",
-    //       title: "Medical Checks & Counseling",
-    //       description: "Free health consultations and emotional support sessions."
-    //     }
-    //   ],
-    //   gallery: [
-    //     "assets/img/person/Jephthah.jpeg",
-    //     "assets/img/person/Jephthah.jpeg",
-    //     "assets/img/person/Jephthah.jpeg"
-    //   ]
-    // }
+    {
+      id: 2,
+      location: "Abuja, Nigeria",
+      title: "Economic Empowerment At The Grassroot Level",
+      description: "Through its empowerment initiatives, Niheme Foundation has successfully established and equipped shops for beneficiaries, giving them a fresh start and a stable source of income. These shops serve as a pathway to financial independence, helping individuals move from unemployment and dependency to self-reliance and dignity. Like many empowerment-focused NGOs in Nigeria, such initiatives contribute to economic growth, poverty reduction, and community development by supporting small-scale businesses and improving livelihoods. Niheme Foundation believes that when individuals are empowered economically, entire communities thrive. Its mission is to create lasting impact by transforming lives, one business at a time.",
+      detailedDescription: "Through its empowerment initiatives, Niheme Foundation has successfully established and equipped shops for beneficiaries, giving them a fresh start and a stable source of income. These shops serve as a pathway to financial independence, helping individuals move from unemployment and dependency to self-reliance and dignity. Like many empowerment-focused NGOs in Nigeria, such initiatives contribute to economic growth, poverty reduction, and community development by supporting small-scale businesses and improving livelihoods. Niheme Foundation believes that when individuals are empowered economically, entire communities thrive. Its mission is to create lasting impact by transforming lives, one business at a time.",
+      time: "10:00 AM - 04:00 PM",
+      venue: "Abuja Nigeria",
+      date: { day: "15", month: "APR", year: "2026" },
+      tag: "sports",
+      coverImage: "assets/img/education/EmpowermentAtGrassroots.jpeg",
+      host: {
+        name: "Mr. Jephthah Peter",
+        photo: "assets/img/person/Jephthah.jpeg",
+        title: "Head of Community Outreach",
+        email: "jephthahpeter@gmail.com",
+        phone: "+234 803 123 4567"
+      },
+      highlights: [
+        "Shop Empowerment Initiative : Several individuals were supported with fully equipped shops, giving them a stable source of income.",
+        "Job Creation & Self-Reliance : Beneficiaries moved from unemployment to business ownership, becoming financially independent.",
+        "Family Support & Stability : Many beneficiaries can now provide for their families—food, school fees, and basic needs.",
+        "Improved Standard of Living : Increased income has led to better living conditions and personal growth."
+      ],
+      schedule: [
+        {
+          time: "10AM - 4PM",
+          title: "Aid Distribution",
+          description: "Through its empowerment initiatives, Niheme Foundation has successfully established and equipped shops for beneficiaries, giving them a fresh start and a stable source of income."
+        },
+      ],
+      gallery: [
+        "assets/img/education/EmpowermentAtGrassroots.jpeg",
+        "https://youtu.be/wFVSGAMEMac?si=31_dSBlUMmeG7_meMJ8?si=0iUhxMPc1nYmF4ov",
+        "assets/img/education/EmpowermentAtGrassroots2.jpeg",
+        "assets/img/education/EmpowermentAtGrassroots3.jpeg"
+      ]
+    }
   ];
 }
 
