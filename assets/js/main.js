@@ -283,6 +283,41 @@ if (!Array.isArray(window.eventData)) {
         "assets/img/education/EmpowermentAtGrassroots2.jpeg",
         "assets/img/education/EmpowermentAtGrassroots3.jpeg"
       ]
+    },
+        {
+      id: 3,
+      location: "Minna, Niger State",
+      title: "Empowered Minds, Brighter Futures: Student Leadership & Support Summit",
+      description: "Student Leadership & Support Summit is a powerful initiative by Niheme Foundation, dedicated to transforming lives through intentional financial support and empowerment. This summit highlights the Foundation’s commitment to lifting financial burdens off students, enabling them to focus on their education, growth, and future ambitions. Through scholarships, educational support, and opportunity-driven initiatives, Niheme Foundation has continued to invest in students, helping them stay in school and pursue their dreams with confidence. More than just financial assistance, this event showcases how support can spark transformation — turning uncertainty into hope, and potential into achievement..",
+      detailedDescription: "Student Leadership & Support Summit is a powerful initiative by Niheme Foundation, dedicated to transforming lives through intentional financial support and empowerment. This summit highlights the Foundation’s commitment to lifting financial burdens off students, enabling them to focus on their education, growth, and future ambitions. Through scholarships, educational support, and opportunity-driven initiatives, Niheme Foundation has continued to invest in students, helping them stay in school and pursue their dreams with confidence. More than just financial assistance, this event showcases how support can spark transformation — turning uncertainty into hope, and potential into achievement..",
+      time: "10:00 AM - 06:00 PM",
+      venue: "Minna, Niger State",
+      date: { day: "28", month: "MAR", year: "2026" },
+      tag: "sports",
+      coverImage: "assets/img/education/StudentEmpowerment1.jpeg",
+      host: {
+        name: "Mr. Jephthah Peter",
+        photo: "assets/img/person/Jephthah.jpeg",
+        title: "Head of Community Outreach",
+        email: "jephthahpeter@gmail.com",
+        phone: "+234 803 123 4567"
+      },
+      highlights: [
+        "Witness real stories of students whose lives have been impacted through financial support.",
+              ],
+      schedule: [
+        {
+          time: "10AM - 4PM",
+          title: "Aid Distribution",
+          description: "This event stands as a reminder that when students are supported financially, they are not limited — they are empowered to rise, lead, and succeed. Through Niheme Foundation, we are not just funding education… We are building confident minds, strong leaders, and brighter futures."
+        },
+      ],
+      gallery: [
+        "assets/img/education/StudentEmpowerment2.jpeg",
+        "https://youtu.be/O_FCuiVHW8g?si=t2eTY1lSE9-o74jo",
+        "assets/img/education/StudentEmpowerment3.jpeg",
+        "assets/img/education/StudentEmpowerment4.jpeg"
+      ]
     }
   ];
 }
