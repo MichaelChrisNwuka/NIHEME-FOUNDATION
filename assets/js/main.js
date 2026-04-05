@@ -318,6 +318,41 @@ if (!Array.isArray(window.eventData)) {
         "assets/img/education/StudentEmpowerment3.jpeg",
         "assets/img/education/StudentEmpowerment4.jpeg"
       ]
+    },
+        {
+      id: 4,
+      location: "Minna, Niger State",
+      title: "Hope in Action: Assisting the Less Privileged",
+      description: "Empowering the Less Privileged event was a heartfelt outreach focused on supporting individuals facing financial difficulties through modest but meaningful assistance. During the event, beneficiaries received small financial support designed to ease immediate burdens and provide a stepping stone toward stability. While the amounts given were not large, they served as timely relief—helping with daily needs, small business efforts, and personal responsibilities. More importantly, the event emphasized that true impact is not always measured by the size of the support, but by the intention and the difference it makes in people’s lives. For many beneficiaries, this act of kindness restored hope, reminded them they are not alone, and encouraged them to keep striving for a better future..",
+      detailedDescription: "Empowering the Less Privileged event was a heartfelt outreach focused on supporting individuals facing financial difficulties through modest but meaningful assistance. During the event, beneficiaries received small financial support designed to ease immediate burdens and provide a stepping stone toward stability. While the amounts given were not large, they served as timely relief—helping with daily needs, small business efforts, and personal responsibilities. More importantly, the event emphasized that true impact is not always measured by the size of the support, but by the intention and the difference it makes in people’s lives. For many beneficiaries, this act of kindness restored hope, reminded them they are not alone, and encouraged them to keep striving for a better future..",
+      time: "11:00 AM - 02:00 PM",
+      venue: "Minna, Niger State",
+      date: { day: "31", month: "MAR", year: "2026" },
+      tag: "sports",
+      coverImage: "assets/img/education/Less1.jpeg",
+      host: {
+        name: "Mr. Jephthah Peter",
+        photo: "assets/img/person/Jephthah.jpeg",
+        title: "Head of Community Outreach",
+        email: "jephthahpeter@gmail.com",
+        phone: "+234 803 123 4567"
+      },
+      highlights: [
+        "Beneficiaries received monetary support.",
+              ],
+      schedule: [
+        {
+          time: "11AM - 2PM",
+          title: "Aid Distribution",
+          description: "The event stood as a powerful reminder that when compassion meets action, real change happens.."
+        },
+      ],
+      gallery: [
+        "assets/img/education/Less2.jpeg",
+        "https://youtube.com/shorts/moADYCPl2e8?si=OEyxB6fLmbGyOVCE",
+        "assets/img/education/Less3.jpeg",
+        "assets/img/education/Less4.jpeg"
+      ]
     }
   ];
 }
@@ -343,12 +378,14 @@ window.addEventListener('DOMContentLoaded', () => {
   events.forEach(event => {
     const eventCard = document.createElement("div");
     eventCard.className = "col-lg-6";
+  
     eventCard.innerHTML = `
       <div class="event-card">
         <div class="event-date">
           <span class="month">${event.date.month}</span>
           <span class="day">${event.date.day}</span>
           <span class="year">${event.date.year}</span>
+          
         </div>
         <div class="event-content">
           <div class="event-tag ${event.tag}">${event.location}</div>
