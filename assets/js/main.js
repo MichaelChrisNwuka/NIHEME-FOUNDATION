@@ -353,6 +353,41 @@ if (!Array.isArray(window.eventData)) {
         "assets/img/education/Less3.jpeg",
         "assets/img/education/Less4.jpeg"
       ]
+    },
+            {
+      id: 5,
+      location: "Owerri, Imo State",
+      title: "Light of Hope, Outreach for the Less Privileged",
+      description: "The event was a heartfelt charity outreach dedicated to supporting the less privileged and vulnerable members of the community. Through generous donations and acts of kindness, financial assistance was provided to individuals and families in need to help ease daily challenges and encourage hope for a better future.",
+      detailedDescription: "The event was a heartfelt charity outreach dedicated to supporting the less privileged and vulnerable members of the community. Through generous donations and acts of kindness, financial assistance was provided to individuals and families in need to help ease daily challenges and encourage hope for a better future.",
+      time: "09:00 AM - 01:00 PM",
+      venue: "Owerri, Imo State",
+      date: { day: "16", month: "MAY", year: "2026" },
+      tag: "sports",
+      coverImage: "assets/img/education/outreach1.jpeg",
+      host: {
+        name: "Mr. Jephthah Peter",
+        photo: "assets/img/person/Jephthah.jpeg",
+        title: "Head of Community Outreach",
+        email: "jephthahpeter@gmail.com",
+        phone: "+234 803 123 4567"
+      },
+      highlights: [
+        "Beneficiaries received monetary support.",
+              ],
+      schedule: [
+        {
+          time: "09AM - 1PM",
+          title: "Aid Distribution",
+          description: "The event was a heartfelt charity outreach dedicated to supporting the less privileged and vulnerable members of the community. Through generous donations and acts of kindness, financial assistance was provided to individuals and families in need to help ease daily challenges and encourage hope for a better future."
+        },
+      ],
+      gallery: [
+        "assets/img/education/outreach2.jpeg",
+        "https://youtu.be/MJ1IW4buORo?si=IvPh7gqfNcXCkPv7",
+        "assets/img/education/outreach3.jpeg",
+        "assets/img/education/outreach4.jpeg"
+      ]
     }
   ];
 }
