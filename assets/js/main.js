@@ -209,17 +209,17 @@ function loadBlogCards() {
 // Global Events Data
 if (!Array.isArray(window.eventData)) {
   window.eventData = [
-     {
-      id: 1,
-      location: "Abuja, Nigeria",
-      title: "Outreach Mission In Imo State",
-      description: "The Niheme Foundation recently embarked on a transformative outreach mission in Imo State, Nigeria, dedicated to uplifting and supporting a local community in need. With a focus on compassion and real impact, the foundation distributed essential aid, care packages, and financial support directly to families, bringing hope and relief to many. ",
-      detailedDescription: "The Niheme Foundation recently embarked on a transformative outreach mission in Imo State, Nigeria, dedicated to uplifting and supporting a local community in need. With a focus on compassion and real impact, the foundation distributed essential aid, care packages, and financial support directly to families, bringing hope and relief to many.",
-      time: "09:00 AM - 12:00 PM",
-      venue: "Imo State, Nigeria",
-      date: { day: "06", month: "JUNE", year: "2025" },
-      tag: "academic",
-      coverImage: "assets/img/education/OutreachInImoMain.jpg",
+                {
+      id: 5,
+      location: "Owerri, Imo State",
+      title: "Light of Hope, Outreach for the Less Privileged",
+      description: "The event was a heartfelt charity outreach dedicated to supporting the less privileged and vulnerable members of the community. Through generous donations and acts of kindness, financial assistance was provided to individuals and families in need to help ease daily challenges and encourage hope for a better future.",
+      detailedDescription: "The event was a heartfelt charity outreach dedicated to supporting the less privileged and vulnerable members of the community. Through generous donations and acts of kindness, financial assistance was provided to individuals and families in need to help ease daily challenges and encourage hope for a better future.",
+      time: "09:00 AM - 01:00 PM",
+      venue: "Owerri, Imo State",
+      date: { day: "16", month: "MAY", year: "2026" },
+      tag: "sports",
+      coverImage: "assets/img/education/outreach1.jpeg",
       host: {
         name: "Mr. Jephthah Peter",
         photo: "assets/img/person/Jephthah.jpeg",
@@ -228,25 +228,93 @@ if (!Array.isArray(window.eventData)) {
         phone: "+234 803 123 4567"
       },
       highlights: [
-        "Distributed over 20 care kits",
-        "Financial assistance provided to numerous families",
-        "Secured 5 new passionate volunteers"
-      ],
+        "Beneficiaries received monetary support.",
+              ],
       schedule: [
         {
-          time: "9AM - 12PM",
+          time: "09AM - 1PM",
           title: "Aid Distribution",
-          description: "Volunteers shared packages and monetary assistance with families in the community."
+          description: "The event was a heartfelt charity outreach dedicated to supporting the less privileged and vulnerable members of the community. Through generous donations and acts of kindness, financial assistance was provided to individuals and families in need to help ease daily challenges and encourage hope for a better future."
         },
       ],
       gallery: [
-        "assets/img/education/OutreachInImoMain2.jpg",
-        "https://youtu.be/lBwVS9LmMJ8?si=0iUhxMPc1nYmF4ov",
-        "assets/img/education/OutreachInImoMain3.jpg",
-        "assets/img/education/OutreachInImoMain4.jpg"
+        "assets/img/education/outreach2.jpeg",
+        "https://youtu.be/MJ1IW4buORo?si=IvPh7gqfNcXCkPv7",
+        "assets/img/education/outreach3.jpeg",
+        "assets/img/education/outreach4.jpeg"
       ]
     },
-    {
+            {
+      id: 4,
+      location: "Minna, Niger State",
+      title: "Hope in Action: Assisting the Less Privileged",
+      description: "Empowering the Less Privileged event was a heartfelt outreach focused on supporting individuals facing financial difficulties through modest but meaningful assistance. During the event, beneficiaries received small financial support designed to ease immediate burdens and provide a stepping stone toward stability. While the amounts given were not large, they served as timely relief—helping with daily needs, small business efforts, and personal responsibilities. More importantly, the event emphasized that true impact is not always measured by the size of the support, but by the intention and the difference it makes in people’s lives. For many beneficiaries, this act of kindness restored hope, reminded them they are not alone, and encouraged them to keep striving for a better future..",
+      detailedDescription: "Empowering the Less Privileged event was a heartfelt outreach focused on supporting individuals facing financial difficulties through modest but meaningful assistance. During the event, beneficiaries received small financial support designed to ease immediate burdens and provide a stepping stone toward stability. While the amounts given were not large, they served as timely relief—helping with daily needs, small business efforts, and personal responsibilities. More importantly, the event emphasized that true impact is not always measured by the size of the support, but by the intention and the difference it makes in people’s lives. For many beneficiaries, this act of kindness restored hope, reminded them they are not alone, and encouraged them to keep striving for a better future..",
+      time: "11:00 AM - 02:00 PM",
+      venue: "Minna, Niger State",
+      date: { day: "31", month: "MAR", year: "2026" },
+      tag: "sports",
+      coverImage: "assets/img/education/Less1.jpeg",
+      host: {
+        name: "Mr. Jephthah Peter",
+        photo: "assets/img/person/Jephthah.jpeg",
+        title: "Head of Community Outreach",
+        email: "jephthahpeter@gmail.com",
+        phone: "+234 803 123 4567"
+      },
+      highlights: [
+        "Beneficiaries received monetary support.",
+              ],
+      schedule: [
+        {
+          time: "11AM - 2PM",
+          title: "Aid Distribution",
+          description: "The event stood as a powerful reminder that when compassion meets action, real change happens.."
+        },
+      ],
+      gallery: [
+        "assets/img/education/Less2.jpeg",
+        "https://youtube.com/shorts/moADYCPl2e8?si=OEyxB6fLmbGyOVCE",
+        "assets/img/education/Less3.jpeg",
+        "assets/img/education/Less4.jpeg"
+      ]
+    },
+            {
+      id: 3,
+      location: "Minna, Niger State",
+      title: "Empowered Minds, Brighter Futures: Student Leadership & Support Summit",
+      description: "Student Leadership & Support Summit is a powerful initiative by Niheme Foundation, dedicated to transforming lives through intentional financial support and empowerment. This summit highlights the Foundation’s commitment to lifting financial burdens off students, enabling them to focus on their education, growth, and future ambitions. Through scholarships, educational support, and opportunity-driven initiatives, Niheme Foundation has continued to invest in students, helping them stay in school and pursue their dreams with confidence. More than just financial assistance, this event showcases how support can spark transformation — turning uncertainty into hope, and potential into achievement..",
+      detailedDescription: "Student Leadership & Support Summit is a powerful initiative by Niheme Foundation, dedicated to transforming lives through intentional financial support and empowerment. This summit highlights the Foundation’s commitment to lifting financial burdens off students, enabling them to focus on their education, growth, and future ambitions. Through scholarships, educational support, and opportunity-driven initiatives, Niheme Foundation has continued to invest in students, helping them stay in school and pursue their dreams with confidence. More than just financial assistance, this event showcases how support can spark transformation — turning uncertainty into hope, and potential into achievement..",
+      time: "10:00 AM - 06:00 PM",
+      venue: "Minna, Niger State",
+      date: { day: "28", month: "MAR", year: "2026" },
+      tag: "sports",
+      coverImage: "assets/img/education/StudentEmpowerment1.jpeg",
+      host: {
+        name: "Mr. Jephthah Peter",
+        photo: "assets/img/person/Jephthah.jpeg",
+        title: "Head of Community Outreach",
+        email: "jephthahpeter@gmail.com",
+        phone: "+234 803 123 4567"
+      },
+      highlights: [
+        "Witness real stories of students whose lives have been impacted through financial support.",
+              ],
+      schedule: [
+        {
+          time: "10AM - 4PM",
+          title: "Aid Distribution",
+          description: "This event stands as a reminder that when students are supported financially, they are not limited — they are empowered to rise, lead, and succeed. Through Niheme Foundation, we are not just funding education… We are building confident minds, strong leaders, and brighter futures."
+        },
+      ],
+      gallery: [
+        "assets/img/education/StudentEmpowerment2.jpeg",
+        "https://youtu.be/O_FCuiVHW8g?si=t2eTY1lSE9-o74jo",
+        "assets/img/education/StudentEmpowerment3.jpeg",
+        "assets/img/education/StudentEmpowerment4.jpeg"
+      ]
+    },
+        {
       id: 2,
       location: "Abuja, Nigeria",
       title: "Economic Empowerment At The Grassroot Level",
@@ -284,17 +352,17 @@ if (!Array.isArray(window.eventData)) {
         "assets/img/education/EmpowermentAtGrassroots3.jpeg"
       ]
     },
-        {
-      id: 3,
-      location: "Minna, Niger State",
-      title: "Empowered Minds, Brighter Futures: Student Leadership & Support Summit",
-      description: "Student Leadership & Support Summit is a powerful initiative by Niheme Foundation, dedicated to transforming lives through intentional financial support and empowerment. This summit highlights the Foundation’s commitment to lifting financial burdens off students, enabling them to focus on their education, growth, and future ambitions. Through scholarships, educational support, and opportunity-driven initiatives, Niheme Foundation has continued to invest in students, helping them stay in school and pursue their dreams with confidence. More than just financial assistance, this event showcases how support can spark transformation — turning uncertainty into hope, and potential into achievement..",
-      detailedDescription: "Student Leadership & Support Summit is a powerful initiative by Niheme Foundation, dedicated to transforming lives through intentional financial support and empowerment. This summit highlights the Foundation’s commitment to lifting financial burdens off students, enabling them to focus on their education, growth, and future ambitions. Through scholarships, educational support, and opportunity-driven initiatives, Niheme Foundation has continued to invest in students, helping them stay in school and pursue their dreams with confidence. More than just financial assistance, this event showcases how support can spark transformation — turning uncertainty into hope, and potential into achievement..",
-      time: "10:00 AM - 06:00 PM",
-      venue: "Minna, Niger State",
-      date: { day: "28", month: "MAR", year: "2026" },
-      tag: "sports",
-      coverImage: "assets/img/education/StudentEmpowerment1.jpeg",
+     {
+      id: 1,
+      location: "Abuja, Nigeria",
+      title: "Outreach Mission In Imo State",
+      description: "The Niheme Foundation recently embarked on a transformative outreach mission in Imo State, Nigeria, dedicated to uplifting and supporting a local community in need. With a focus on compassion and real impact, the foundation distributed essential aid, care packages, and financial support directly to families, bringing hope and relief to many. ",
+      detailedDescription: "The Niheme Foundation recently embarked on a transformative outreach mission in Imo State, Nigeria, dedicated to uplifting and supporting a local community in need. With a focus on compassion and real impact, the foundation distributed essential aid, care packages, and financial support directly to families, bringing hope and relief to many.",
+      time: "09:00 AM - 12:00 PM",
+      venue: "Imo State, Nigeria",
+      date: { day: "06", month: "JUNE", year: "2025" },
+      tag: "academic",
+      coverImage: "assets/img/education/OutreachInImoMain.jpg",
       host: {
         name: "Mr. Jephthah Peter",
         photo: "assets/img/person/Jephthah.jpeg",
@@ -303,92 +371,25 @@ if (!Array.isArray(window.eventData)) {
         phone: "+234 803 123 4567"
       },
       highlights: [
-        "Witness real stories of students whose lives have been impacted through financial support.",
-              ],
+        "Distributed over 20 care kits",
+        "Financial assistance provided to numerous families",
+        "Secured 5 new passionate volunteers"
+      ],
       schedule: [
         {
-          time: "10AM - 4PM",
+          time: "9AM - 12PM",
           title: "Aid Distribution",
-          description: "This event stands as a reminder that when students are supported financially, they are not limited — they are empowered to rise, lead, and succeed. Through Niheme Foundation, we are not just funding education… We are building confident minds, strong leaders, and brighter futures."
+          description: "Volunteers shared packages and monetary assistance with families in the community."
         },
       ],
       gallery: [
-        "assets/img/education/StudentEmpowerment2.jpeg",
-        "https://youtu.be/O_FCuiVHW8g?si=t2eTY1lSE9-o74jo",
-        "assets/img/education/StudentEmpowerment3.jpeg",
-        "assets/img/education/StudentEmpowerment4.jpeg"
+        "assets/img/education/OutreachInImoMain2.jpg",
+        "https://youtu.be/lBwVS9LmMJ8?si=0iUhxMPc1nYmF4ov",
+        "assets/img/education/OutreachInImoMain3.jpg",
+        "assets/img/education/OutreachInImoMain4.jpg"
       ]
     },
-        {
-      id: 4,
-      location: "Minna, Niger State",
-      title: "Hope in Action: Assisting the Less Privileged",
-      description: "Empowering the Less Privileged event was a heartfelt outreach focused on supporting individuals facing financial difficulties through modest but meaningful assistance. During the event, beneficiaries received small financial support designed to ease immediate burdens and provide a stepping stone toward stability. While the amounts given were not large, they served as timely relief—helping with daily needs, small business efforts, and personal responsibilities. More importantly, the event emphasized that true impact is not always measured by the size of the support, but by the intention and the difference it makes in people’s lives. For many beneficiaries, this act of kindness restored hope, reminded them they are not alone, and encouraged them to keep striving for a better future..",
-      detailedDescription: "Empowering the Less Privileged event was a heartfelt outreach focused on supporting individuals facing financial difficulties through modest but meaningful assistance. During the event, beneficiaries received small financial support designed to ease immediate burdens and provide a stepping stone toward stability. While the amounts given were not large, they served as timely relief—helping with daily needs, small business efforts, and personal responsibilities. More importantly, the event emphasized that true impact is not always measured by the size of the support, but by the intention and the difference it makes in people’s lives. For many beneficiaries, this act of kindness restored hope, reminded them they are not alone, and encouraged them to keep striving for a better future..",
-      time: "11:00 AM - 02:00 PM",
-      venue: "Minna, Niger State",
-      date: { day: "31", month: "MAR", year: "2026" },
-      tag: "sports",
-      coverImage: "assets/img/education/Less1.jpeg",
-      host: {
-        name: "Mr. Jephthah Peter",
-        photo: "assets/img/person/Jephthah.jpeg",
-        title: "Head of Community Outreach",
-        email: "jephthahpeter@gmail.com",
-        phone: "+234 803 123 4567"
-      },
-      highlights: [
-        "Beneficiaries received monetary support.",
-              ],
-      schedule: [
-        {
-          time: "11AM - 2PM",
-          title: "Aid Distribution",
-          description: "The event stood as a powerful reminder that when compassion meets action, real change happens.."
-        },
-      ],
-      gallery: [
-        "assets/img/education/Less2.jpeg",
-        "https://youtube.com/shorts/moADYCPl2e8?si=OEyxB6fLmbGyOVCE",
-        "assets/img/education/Less3.jpeg",
-        "assets/img/education/Less4.jpeg"
-      ]
-    },
-            {
-      id: 5,
-      location: "Owerri, Imo State",
-      title: "Light of Hope, Outreach for the Less Privileged",
-      description: "The event was a heartfelt charity outreach dedicated to supporting the less privileged and vulnerable members of the community. Through generous donations and acts of kindness, financial assistance was provided to individuals and families in need to help ease daily challenges and encourage hope for a better future.",
-      detailedDescription: "The event was a heartfelt charity outreach dedicated to supporting the less privileged and vulnerable members of the community. Through generous donations and acts of kindness, financial assistance was provided to individuals and families in need to help ease daily challenges and encourage hope for a better future.",
-      time: "09:00 AM - 01:00 PM",
-      venue: "Owerri, Imo State",
-      date: { day: "16", month: "MAY", year: "2026" },
-      tag: "sports",
-      coverImage: "assets/img/education/outreach1.jpeg",
-      host: {
-        name: "Mr. Jephthah Peter",
-        photo: "assets/img/person/Jephthah.jpeg",
-        title: "Head of Community Outreach",
-        email: "jephthahpeter@gmail.com",
-        phone: "+234 803 123 4567"
-      },
-      highlights: [
-        "Beneficiaries received monetary support.",
-              ],
-      schedule: [
-        {
-          time: "09AM - 1PM",
-          title: "Aid Distribution",
-          description: "The event was a heartfelt charity outreach dedicated to supporting the less privileged and vulnerable members of the community. Through generous donations and acts of kindness, financial assistance was provided to individuals and families in need to help ease daily challenges and encourage hope for a better future."
-        },
-      ],
-      gallery: [
-        "assets/img/education/outreach2.jpeg",
-        "https://youtu.be/MJ1IW4buORo?si=IvPh7gqfNcXCkPv7",
-        "assets/img/education/outreach3.jpeg",
-        "assets/img/education/outreach4.jpeg"
-      ]
-    }
+
   ];
 }
 
@@ -437,7 +438,7 @@ window.addEventListener('DOMContentLoaded', () => {
             </div>
           </div>
           <div class="event-actions">
-            <a href="event-details.html?id=${event.id}" class="btn-learn-more">Learn More</a>
+            <a href="event-details.html?id=${event.id}" class="btn-learn-more">More Events</a>
           </div>
         </div>
       </div>
