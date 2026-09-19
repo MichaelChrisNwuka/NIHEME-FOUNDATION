@@ -209,6 +209,41 @@ function loadBlogCards() {
 // Global Events Data
 if (!Array.isArray(window.eventData)) {
   window.eventData = [
+ {
+      id: 6,
+      location: "Owerri, Imo State",
+      title: "Extending Hope, Restoring Dignity",
+      description: "Our organisation is committed to making a meaningful difference in the lives of vulnerable members of our community. This special outreach event in Imo State is dedicated to supporting people living with visual impairment and less privileged individuals through compassion, care, and practical assistance.",
+      detailedDescription: "Our organisation is committed to making a meaningful difference in the lives of vulnerable members of our community. This special outreach event in Imo State is dedicated to supporting people living with visual impairment and less privileged individuals through compassion, care, and practical assistance. The event will provide essential support and resources while creating an opportunity to connect with beneficiaries, listen to their needs, and remind them that they are valued members of our society. Together, we can put smiles on faces, restore hope, promote inclusion, and build a community where everyone has the opportunity to live with dignity and purpose. Every act of kindness can change a life.",
+      time: "09:00 AM - 01:00 PM",
+      venue: "Owerri, Imo State",
+      date: { day: "14", month: "SEPT", year: "2026" },
+      tag: "sports",
+      coverImage: "assets/img/education/dignity.png",
+      host: {
+        name: "Mr. Jephthah Peter",
+        photo: "assets/img/person/Jephthah.jpeg",
+        title: "Head of Community Outreach",
+        email: "jephthahpeter@gmail.com",
+        phone: "+234 803 123 4567"
+      },
+      highlights: [
+        "Beneficiaries received monetary support.",
+              ],
+      schedule: [
+        {
+          time: "09AM - 1PM",
+          title: "Aid Distribution",
+          description: "The event will provide essential support and resources while creating an opportunity to connect with beneficiaries, listen to their needs, and remind them that they are valued members of our society."
+        },
+      ],
+      gallery: [
+        "assets/img/education/title-2.jpeg",
+        "https://www.youtube.com/watch?v=AS0YHjPuqeQ",
+        "assets/img/education/title-3.jpeg",
+        "assets/img/education/title-4.jpeg"
+      ]
+    },
                 {
       id: 5,
       location: "Owerri, Imo State",
